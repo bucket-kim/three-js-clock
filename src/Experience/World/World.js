@@ -1,8 +1,6 @@
 import * as THREE from "three";
 import Experience from "../Experience.js";
 import Environment from "./Environment.js";
-import Floor from "./Floor.js";
-import Fox from "./Fox.js";
 
 export default class World {
   constructor() {
@@ -16,12 +14,10 @@ export default class World {
       new THREE.MeshStandardMaterial()
     );
 
-    // this.scene.add(testMesh);
+    this.scene.add(testMesh);
 
     this.resources.on("ready", () => {
       // setup
-      this.floor = new Floor();
-      this.fox = new Fox();
       this.environment = new Environment();
     });
   }
