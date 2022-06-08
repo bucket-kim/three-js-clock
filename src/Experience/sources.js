@@ -12,20 +12,20 @@ export default [
     ],
   },
 
-  {
-    name: "grassColorTexture",
-    type: "texture",
-    path: "textures/dirt/color.jpg",
-  },
-  {
-    name: "grassNormalTexture",
-    type: "texture",
-    path: "textures/dirt/normal.jpg",
-  },
+  //   {
+  //     name: "grassColorTexture",
+  //     type: "texture",
+  //     path: "textures/dirt/color.jpg",
+  //   },
+  //   {
+  //     name: "grassNormalTexture",
+  //     type: "texture",
+  //     path: "textures/dirt/normal.jpg",
+  //   },
 
-  {
-    name: "foxModel",
-    type: "gltfModel",
-    path: "models/fox/glTF/Fox.gltf",
-  },
+  //   {
+  //     name: "foxModel",
+  //     type: "gltfModel",
+  //     path: "models/fox/glTF/Fox.gltf",
+  //   },
 ];
